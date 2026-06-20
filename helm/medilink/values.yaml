@@ -3,7 +3,7 @@ global:
   namespace: medilink
   # ECR registry prefix — override with: 371454942267.dkr.ecr.us-east-1.amazonaws.com/medilink
   imageRegistry: "371454942267.dkr.ecr.us-east-1.amazonaws.com/medilink"
-  imageTag: "sha-bb827b75" # overridden by CI/CD with the git sha: sha-<commit>
+  imageTag: "sha-86aa9c11" # overridden by CI/CD with the git sha: sha-<commit>
   awsRegion: "us-east-1"
   awsAccountId: "371454942267"
   # RSA public key injected here so all services can verify JWTs
